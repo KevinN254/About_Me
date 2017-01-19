@@ -1,6 +1,5 @@
 div{
 	margin: 10px;
-	/*display: flex;*/
 	clear: both;
 }
 
@@ -11,7 +10,6 @@ div{
 }
 #oneName{
 	width: 100vw;
-	height: 100vh;
 	color: white;
 	text-align: center;
 	margin: auto;
@@ -57,7 +55,15 @@ div{
 	font-size: 40px;
 }
 
-
+#two{
+	background-color: blue;
+	width: 100%;
+	height: auto;
+	border: solid;
+	border-color: white; 
+	
+	
+}
 #twoProfile{
 	width: 30%;
 	height:40%;
