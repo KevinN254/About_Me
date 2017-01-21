@@ -1,3 +1,8 @@
+body{
+	font-size: 18px;
+	font-style: Calibre;
+	font-weight: bold;
+}
 div{
 	margin: 10px;
 	clear: both;
@@ -20,35 +25,6 @@ div{
 	border-radius: 50%; 
 	cursor: pointer;
 }
-/*.profileImg {
-    position: relative;
-    float: center;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    -webkit-box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-    -moz-box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-    box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-  }
-
-.profileImg:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0,255,255, 0.5);
-  -moz-transition: background .3s linear;
-  -webkit-transition: background .3s linear;
-  -o-transition: background .3s linear;
-  transition: background .3s linear;
-}
-
-.profileImg:hover:before {
-  background: none;
-}*/
 
 #name{
 	font-weight: bolder;
@@ -65,47 +41,41 @@ div{
 	
 }
 #twoProfile{
-	width: 30%;
-	height:40%;
+	width: 50%;
+	height:300px;
 	float: left;
-	background-color: blue;
+	background-color: rgba(20, 98, 194, 0.55);
 	color: white;
 	font-weight: bold;
 
 }
 
 #threeSkills{
-	width: 60%;
-	height: 40%;
+	width: 50%;
+	height: auto;
 	float: right; 
-	background-color: blue;
-	color: white;
+	background-color: rgba(255, 255, 255, 0.52);
+	color: rgb(0, 52, 255);
 	font-weight: bold;
+}
 
-
+#threeSKills ul {
+ display: inline-block; 
 }
 
 #fourEducation{
-	width: 30%;
-	height:40%;
-	float: left;
-	color: blue;
-
-
-}
-
-#fiveLanguages{
-	width: 60%;
-	height: 40%;
+	width: 50%;
+	height:300px;
 	float: right;
-	color: blue;
+	background-color: rgba(255, 255, 255, 0.52);
+	color: rgb(0, 52, 255);
 
 }
+
 
 #sixContact{
-	width: 30%;
-	height:40%;
-	float: left;
+	width: 100%;
+	height:auto;
 	background-color: blue;
 	color: white;
 	font-weight: bold;
@@ -113,10 +83,11 @@ div{
 }
 
 #sevenExperience{
-	width: 60%;
-	height: 40%;
-	float: right;
-	color: blue;
+	width: 50%;
+	height: 300px;
+	float: left;
+	background-color: rgba(20, 98, 194, 0.55);
+	color: white;
 
 }
 
@@ -128,6 +99,11 @@ div{
 .img-with-text img {
     display: block;
     margin: 0 auto;
+}
+h1{
+	padding-left: 30px;
+	text-decoration: underline;
+
 }
 
 #footer{
