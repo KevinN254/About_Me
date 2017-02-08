@@ -76,10 +76,8 @@ div{
 #sixContact{
 	width: 100%;
 	height:auto;
-	background-color: blue;
 	color: white;
-	font-weight: bold;
-
+	text-align: center;
 }
 
 #sevenExperience{
@@ -106,9 +104,12 @@ h1{
 
 }
 
+
 #footer{
 
 }
+
+
 
 
 
